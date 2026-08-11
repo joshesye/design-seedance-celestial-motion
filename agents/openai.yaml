@@ -1,0 +1,14 @@
+interface:
+  display_name: Seedance 天宫运镜
+  short_description: 把仙侠天宫场景图转换为分段时间轴与电影化运镜提示词
+  default_prompt: 使用 $design-seedance-celestial-motion，根据上传的天宫场景图生成可直接用于 Seedance
+    的时间轴运镜提示词。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
